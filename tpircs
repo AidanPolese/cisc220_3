@@ -1,0 +1,12 @@
+#!/bin/bash
+#Aidan Polese - 10197342
+
+#read in a list of words delimited by spaces
+read -p "Insert a list of words: " words
+#The string delimited by spaces is put into an array
+revArray=($words)
+
+#The entries in the array are looped through and the entries are echoed out in reverse
+for (( i=0; i<=${#revArray[@]}; i++ )); do
+	echo ${revArray[i]}|rev;
+done
