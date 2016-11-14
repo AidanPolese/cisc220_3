@@ -1,5 +1,8 @@
 #!/bin/bash
-#Aidan Polese - 10197342
+#Aidan Polese : 10197342
+#Manvir Grewal : 10193283
+#Kathleen Abols : 10179548
+#Lianne Orlowski : 10204124
 
 #read in a list of words delimited by spaces
 read -p "Insert a list of words: " words
